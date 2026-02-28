@@ -1,0 +1,21 @@
+.topnav {
+    background-color: beige;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+}
+
+.topnav a {
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    padding: 1%;
+}
+
+.topnav a:hover{
+    background-color: #d1d1bb;
+}
+
+.active {
+    background-color: burlywood;
+}
