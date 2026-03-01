@@ -3,6 +3,7 @@
     overflow: hidden;
     display: flex;
     justify-content: center;
+    border-radius: 10px;
 }
 
 .topnav a {
@@ -10,6 +11,7 @@
     font-family: Arial, Helvetica, sans-serif;
     text-decoration: none;
     padding: 1%;
+    width: 200px;
 }
 
 .topnav a:hover{
@@ -18,4 +20,23 @@
 
 .active {
     background-color: burlywood;
+}
+
+.box {
+    background-color: hsl(0, 0%, 81%);
+    margin: 30px;
+    border-radius: 10px;
+    display: grid;
+    justify-content: center;
+    padding: 10px;
+    grid-template-columns: auto 1fr;
+}
+
+.title {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.input {
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
 }
